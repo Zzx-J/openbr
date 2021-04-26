@@ -2,6 +2,8 @@ project(openbr)
 cmake_minimum_required(VERSION 2.8.9)
 
 # Global settings
+set(OpenCV_DIR "${CMAKE_CURRENT_SOURCE_DIR}/opencv/build-msvc2019/install")
+set(Qt5_DIR "${CMAKE_CURRENT_SOURCE_DIR}/msvc2019/lib/cmake/Qt5")
 set(BR_SHARE_DIR "${CMAKE_CURRENT_SOURCE_DIR}/share/openbr")
 set(BR_SCRIPTS_DIR "${CMAKE_CURRENT_SOURCE_DIR}/scripts")
 set(CMAKE_AUTOMOC ON)
